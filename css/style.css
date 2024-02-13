@@ -10,16 +10,29 @@ nav, ul {
     justify-content: flex-end;
     list-style: none;
     gap: 30px;
-    margin-right: 1rem;
+    background-color: rgb(202, 199, 199);
+    
     
 }
 
+nav, ul, li {
+
+    padding-right: 1rem;
+}
+
 .logo {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: rgb(202, 199, 199);
     
-    margin-left: 1rem;
-    padding-top: 10px;
     
-    
+}
+
+.logo-animation {
+
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
 }
 
 .hero-image {
