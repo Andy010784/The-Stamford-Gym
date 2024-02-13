@@ -32,31 +32,60 @@ nav, ul, li {
 
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-family: "Kaushan Script", cursive;
+    font-size: 32px;
+    margin-top: 20px;
+    animation-name: logo-animation;
+    animation-duration: 5s;
+    animation-fill-mode: both;
 
 }
+
+@keyframes logo-animation {
+
+    from {
+        transform: scale(1);
+    }
+
+    to{
+    transform: scale(2);
+}
+
+      }
+
 
 .intro {
 
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-left: 40px;
     height: auto;
     width: fit-content;
-    border: 1px black solid;
-    
-    
+    font-family: "Kaushan Script", cursive;;
+    font-size: 20px;
+    background-color: whitesmoke
 
+  
 }
 .hero-image {
 
-    width: 100%;
+    width: auto;
     height: 550px;
-    background-image: url(/css/images/shutterstockedit_574107949.jpg); 
+    background-image: url(..//css/images/shutterstockedit_574107949.jpg); 
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
     
 
+}
+
+.footer {
+
+    display: flex;
+    width: auto;
+    height: 30px;
+    background-color: rgb(180, 182, 181);
 }
 
 
