@@ -17,13 +17,17 @@ nav, ul {
 
 nav, ul, li {
 
+    font-family: "Kaushan Script", cursive;
     padding-right: 1rem;
+
 }
 
 .logo {
     padding-left: 1rem;
     padding-top: 1rem;
     background-color: rgb(202, 199, 199);
+    font-family: "Kaushan Script", cursive;
+    font-size: 26px;
     
     
 }
@@ -34,7 +38,7 @@ nav, ul, li {
     justify-content: center;
     font-family: "Kaushan Script", cursive;
     font-size: 32px;
-    margin-top: 20px;
+    margin-top: 50px;
     animation-name: logo-animation;
     animation-duration: 5s;
     animation-fill-mode: both;
@@ -56,7 +60,7 @@ nav, ul, li {
 
 .intro {
 
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 40px;
     height: auto;
     width: fit-content;
@@ -82,11 +86,22 @@ nav, ul, li {
 
 .footer {
     display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
     width: auto;
     height: 30px;
-    background-color: rgb(180, 182, 181);
+    background-color:  rgb(202, 199, 199);
 
 }
+
+
+    
+
+
+    
+
+
+
 
 
 
