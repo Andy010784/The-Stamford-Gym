@@ -69,7 +69,7 @@ nav, ul, li {
 .hero-image {
 
     width: auto;
-    height: 550px;
+    height: 100vh;
     background-image: url(..//css/images/shutterstockedit_574107949.jpg); 
     background-position: center;
     background-attachment: fixed;
@@ -81,11 +81,11 @@ nav, ul, li {
 }
 
 .footer {
-
     display: flex;
     width: auto;
     height: 30px;
     background-color: rgb(180, 182, 181);
+
 }
 
 
