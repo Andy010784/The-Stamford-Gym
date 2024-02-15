@@ -3,11 +3,13 @@
     padding: 0;
     margin: 0; }
 
-    
-nav, ul {
+#menu {
 
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    right: 0px;
     list-style: none;
     gap: 30px;
     background-color: rgb(202, 199, 199);
@@ -15,19 +17,26 @@ nav, ul {
     
 }
 
-nav, ul, li {
+
+
+  #menu, a{
 
     font-family: "Kaushan Script", cursive;
-    padding-right: 1rem;
-
+    color: black;
+    margin-right: 20px;
+    
 }
 
 .logo {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
     padding-left: 1rem;
     padding-top: 1rem;
     background-color: rgb(202, 199, 199);
     font-family: "Kaushan Script", cursive;
-    font-size: 26px;
+    font-size: 30px;
     
     
 }
@@ -38,7 +47,7 @@ nav, ul, li {
     justify-content: center;
     font-family: "Kaushan Script", cursive;
     font-size: 32px;
-    margin-top: 50px;
+    margin-top: 130px;
     animation-name: logo-animation;
     animation-duration: 5s;
     animation-fill-mode: both;
@@ -60,13 +69,15 @@ nav, ul, li {
 
 .intro {
 
-    margin-top: 150px;
-    margin-left: 40px;
-    height: auto;
-    width: fit-content;
+    position: relative;
+    top: 150px;
+    height: fit-content;
+    width: auto;
     font-family: "Kaushan Script", cursive;;
-    font-size: 20px;
-    background-color: whitesmoke
+    font-size: 26px;
+    color: white;
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.877);
 
   
 }
@@ -81,18 +92,61 @@ nav, ul, li {
     background-size: cover;
     overflow-x: hidden;
     
-
 }
 
-.footer {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 10px;
-    width: auto;
-    height: 30px;
-    background-color:  rgb(202, 199, 199);
+ .footer {
 
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+    bottom: 0px;
+    left: 0px;
+    
+  
+    height: 50px; }
+
+#socials {
+
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100vw;
+  bottom: 0px;
+  left: 0px;
+  background-color:  ;
+  list-style: none;
+  gap: 35px;
+  background-color:  rgb(202, 199, 199);;
+ 
+
+
+
+   
 }
+
+
+  
+.copyright {
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    background-color: (202, 199, 199);;
+  
+   
+ 
+}
+
+
+
+    
+
+
+
+   
+
+ 
 
 
     
