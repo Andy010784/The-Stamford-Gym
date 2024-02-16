@@ -24,13 +24,14 @@
     font-family: "Kaushan Script", cursive;
     color: black;
     margin-right: 20px;
+
     
 }
 
 .logo {
     position: fixed;
-    top: 0;
-    left:0;
+    top: 0px;
+    left: 0;
     width: 100vw;
     padding-left: 1rem;
     padding-top: 1rem;
@@ -51,6 +52,7 @@
     animation-name: logo-animation;
     animation-duration: 5s;
     animation-fill-mode: both;
+
 
 }
 
@@ -76,7 +78,7 @@
     font-family: "Kaushan Script", cursive;;
     font-size: 26px;
     color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: rgba(0, 0, 0, 0.877);
 
   
@@ -113,15 +115,10 @@
   width: 100vw;
   bottom: 0px;
   left: 0px;
-  background-color:  ;
   list-style: none;
   gap: 35px;
-  background-color:  rgb(202, 199, 199);;
- 
-
-
-
-   
+  z-index: 1;
+  
 }
 
 
@@ -131,12 +128,13 @@
     position: fixed;
     bottom: 0px;
     left: 0px;
+    font-family: "Kaushan Script", cursive;;
     width: 100vw;
-    background-color: (202, 199, 199);;
-  
-   
- 
+    background-color: rgb(202, 199, 199);;
+    
+
 }
+
 
 
 
