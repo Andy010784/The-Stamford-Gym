@@ -24,9 +24,14 @@
     font-family: "Kaushan Script", cursive;
     color: black;
     margin-right: 20px;
+  }
+
+  a:hover{
+
+    color: rgba(253, 6, 88, 0.733);
 
     
-}
+  }
 
 .logo {
     position: fixed;
@@ -80,6 +85,7 @@
     color: white;
     opacity: 0.9;
     background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
 
   
 }
@@ -133,6 +139,14 @@
     background-color: rgb(202, 199, 199);;
     
 
+}
+
+.services-container, .gallery-container, .contact-container  {
+
+    display: flex;
+    background-color: rgba(68, 67, 67, 0.795);;
+    width: auto;
+    height: 100vh;
 }
 
 
