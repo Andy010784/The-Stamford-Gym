@@ -145,7 +145,8 @@
 .services-container, .gallery-container, .contact-container  {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 30px;
     background-color: rgba(68, 67, 67, 0.795);;
     width: 100vw;
@@ -159,9 +160,9 @@
     top: 100px;
     font-family: "Kaushan Script", cursive;;
     font-size: 26px;
-    width: max-content;
-    height: max-content;
-    background-color: rgba(79, 91, 197, 0.842);
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(122, 122, 247, 0.438);
     color: white;
     border-radius: 15px;;
     
@@ -169,14 +170,14 @@
 }
 
 .signup {
-
+    
     position: relative;
-    top: 100px;
     font-size: 26px;
     border-radius: 15px;
-    background-color: rgba(79, 91, 197, 0.842);
-    color: white;
-
+    font-family: "Kaushan Script", cursive;;
+    background-color: rgba(111, 243, 139, 0.438);
+    color: black;
+    left: 10px ;
 }
 
 
