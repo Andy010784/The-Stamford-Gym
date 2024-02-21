@@ -178,7 +178,56 @@
 
 }
 
+.services {
 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    position: relative;
+    top: 100px;
+    background-color: aquamarine;
+}
+
+
+
+.range-services * {
+
+    list-style: none;
+    
+
+}
+
+
+.video-container {
+
+    width: 200px;
+    height: 200px;
+}
+
+
+.video  {
+
+    width: 100%;
+    aspect-ratio: 16/9;
+
+
+}
+
+
+    
+
+
+.equipment  * {
+
+    list-style: none;
+
+}
+
+
+.cost * {
+
+    list-style: none;
+}
 
 
  
