@@ -1,12 +1,15 @@
 * {
     
     padding: 0;
-    margin: 0; }
+    margin: 0;
+ }
+    
 
  body {
 
     width: 100vw;
     height: 100vh;
+    background-color: rgba(248, 197, 197, 0.404);
  }   
 
 #menu {
@@ -144,6 +147,33 @@
     font-family: "Kaushan Script", cursive;;
     width: 100vw;
     background-color: rgb(202, 199, 199);;
+    
+
+}
+
+.sign-up {
+
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: "Kaushan Script", cursive;;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    
+    
+}
+
+.click-here {
+    
+    font-size: 20px;
+    border-radius: 10px ;
+    font-family: "Kaushan Script", cursive;;
+    margin-right: 40px;
+    background-color: rgb(202, 199, 199);;
+    color: rgb(101, 101, 248);
+
     
 
 }
