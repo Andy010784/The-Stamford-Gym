@@ -203,9 +203,6 @@
     width: 100%;
     aspect-ratio: 16/9;
     
-
-
-
 }
 
 
@@ -231,7 +228,8 @@
 #gallery-container {
     
     display: flex ;
-    position: fixed;
+    position: relative;
+    z-index: -1;
     justify-content: space-evenly;
     gap: 10px;
     top: 64px;
@@ -255,21 +253,35 @@ img {
 
 
 .contact-container {
-
+    
     display: flex;
-    position: relative;
-    justify-content: space-around;
     flex-wrap: wrap ;
-    width: 100vw;
-    height: auto;
+    justify-content: space-around;
+    position: relative;
     top: 80px;
 }
+
+.subscribe-container {
+
+    height: 400px;
+    width: 400px;
+    text-align:center;
+    align-contents: space-evenly;
+    
+}
+
 
 .address {
 
     list-style: none;
     
+
+    
 }
+
+
+
+
 
 
 
