@@ -254,6 +254,24 @@ img {
 }
 
 
+.contact-container {
+
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    width: 100vw;
+    height: auto;
+    top: 80px;
+}
+
+.address {
+
+    list-style: none;
+    
+}
+
+
 
 
 
