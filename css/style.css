@@ -239,7 +239,7 @@
     justify-content: space-evenly;
     gap: 10px;
     top: 64px;
-    left:px;
+    left: 0px;
     flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
@@ -272,7 +272,7 @@ img {
     height: 400px;
     width: 400px;
     text-align:center;
-    align-contents: space-evenly;
+    align-content: space-evenly;
     
 }
 
