@@ -11,6 +11,7 @@
     height: 100vh;
     background-color: rgba(248, 197, 197, 0.404);
     font-family: "Exo 2", sans-serif;
+
  }   
 
 #menu {
@@ -117,7 +118,9 @@
     width: 100vw;
     bottom: 0px;
     left: 0px;
-    height: 50px; }
+    height: 50px;
+    overflow-x: hidden
+}
 
 
 
@@ -238,8 +241,8 @@
     top: 64px;
     left: 0px;
     flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
 
 
 }
