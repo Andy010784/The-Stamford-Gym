@@ -153,12 +153,13 @@
 }
 
 .sign-up {
-
+    
+    display: flex;
+    justify-content: center;
+    z-index: -1;
     position: relative;
     top: 80px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    
     
     
 }
@@ -173,6 +174,45 @@
 
     
 
+}
+
+#services-flex {
+
+    display: flex;
+    row-gap: 200px;
+    flex-wrap: wrap;
+    width: 95vw;
+    text-align: justify;
+    padding-left: 2rem ;
+    
+}
+
+.range-services {
+
+    position: relative;
+    top: 100px;
+    line-height: 1.4;
+    z-index: -1;
+   
+
+
+}
+
+
+#cost-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+    overflow-x: hidden;
+
+
+
+}
+.our-fees {
+
+    align-self: flex-end;
 }
 
 
