@@ -175,60 +175,9 @@
 
 }
 
-.services {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    position: relative;
-    top: 100px;
-    background-color: rgb(216, 213, 213);
-    
-
-}
-
-
-
-.range-services * {
-
-    list-style: none;
-    background-color: rgb(216, 213, 213);
-    
-    
-
-}
-
-
-
-.video  {
-
-    width: 100%;
-    aspect-ratio: 16/9;
-    
-}
-
 
     
-
-
-.equipment  * {
-
-    list-style: none;
-    background-color: rgb(216, 213, 213);
-
     
-
-}
-
-
-.cost * {
-
-    list-style: none;
-    background-color: rgb(216, 213, 213);
-    
-    
-
-}
 
 
 #gallery-container {
