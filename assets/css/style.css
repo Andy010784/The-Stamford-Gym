@@ -1,0 +1,379 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+ }
+    
+
+ body {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(248, 197, 197, 0.404);
+    font-family: "Exo 2", sans-serif;
+
+ }   
+
+#menu {
+
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    list-style: none;
+    gap: 30px;
+    background-color: rgb(202, 199, 199);
+    
+    
+}
+
+
+
+  #menu, a{
+
+    font-family: "Kaushan Script", cursive;
+    color: black;
+    margin-right: 20px;
+  }
+
+  a:hover{
+
+    color: rgba(253, 6, 88, 0.733);
+    
+
+    
+  }
+
+.logo {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100vw;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: rgb(202, 199, 199);
+    font-size: 30px;
+    
+    
+}
+
+.logo-animation {
+
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 130px;
+    animation-name: logo-animation;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+
+
+}
+
+@keyframes logo-animation {
+
+    from {
+        transform: scale(1);
+    }
+
+    to{
+    transform: scale(2);
+}
+
+      }
+
+
+.intro {
+
+    position: relative;
+    top: 150px;
+    height: fit-content;
+    width: 100vw;
+    font-size: 26px;
+    color: white;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+
+  
+}
+.hero-image {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/images/gyminterior.jpg); 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+
+ #footer {
+
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    overflow-x: hidden
+}
+
+
+
+#socials {
+
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100vw;
+  bottom: 0px;
+  left: 0px;
+  list-style: none;
+  gap: 35px;
+  z-index: 1;
+  
+}
+
+
+
+  
+.copyright {
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    background-color: rgb(202, 199, 199);;
+    
+
+}
+
+.sign-up {
+
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.click-here {
+    
+    font-size: 20px;
+    border-radius: 10px ;
+    margin-right: 40px;
+    background-color: rgb(202, 199, 199);;
+    color: rgb(101, 101, 248);
+
+    
+
+}
+
+.services {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+    background-color: rgb(216, 213, 213);
+    
+
+}
+
+
+
+.range-services * {
+
+    list-style: none;
+    background-color: rgb(216, 213, 213);
+    
+    
+
+}
+
+
+
+.video  {
+
+    width: 100%;
+    aspect-ratio: 16/9;
+    
+}
+
+
+    
+
+
+.equipment  * {
+
+    list-style: none;
+    background-color: rgb(216, 213, 213);
+
+    
+
+}
+
+
+.cost * {
+
+    list-style: none;
+    background-color: rgb(216, 213, 213);
+    
+    
+
+}
+
+
+#gallery-container {
+    
+    display: flex ;
+    position: relative;
+    z-index: -1;
+    justify-content: space-evenly;
+    gap: 10px;
+    top: 64px;
+    left: 0px;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+
+
+}
+
+img {
+
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border: 2px black solid;
+    
+
+
+}
+
+
+.contact-container {
+    
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    align-content: first baseline;
+    position: relative;
+    top: 80px;
+    
+   
+}
+
+#details {
+
+    
+}
+
+.address {
+
+    list-style: none;
+    background-color: rgb(216, 213, 213);
+    line-height: 1.5;
+    align-self: last baseline;
+
+}
+
+
+
+
+ fieldset {
+
+    height: fit-content;
+    background-color: rgb(216, 213, 213);
+    line-height: 2.5;
+    text-align:center;
+    border: none;
+
+
+}
+    
+
+
+
+
+#news-letter {
+
+    font-weight: bold;
+
+
+}
+
+
+.testimonials {
+
+    margin-top: 50px;
+    text-align: justify;
+    background-color: rgb(216, 213, 213);
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+
+
+
+.thankyou {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 300px;
+    width: 100vw;
+    height: auto;
+    font-size: 38px;
+  
+    
+}
+
+
+
+
+
+
+    
+
+
+
+   
+
+ 
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+    
