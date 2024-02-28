@@ -2,6 +2,7 @@
     
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
  }
     
 
@@ -180,17 +181,20 @@
 
     display: flex;
     row-gap: 200px;
+    width: 90vw;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 95vw;
+    word-wrap: break-word;
     text-align: justify;
     padding-left: 2rem ;
     
 }
 
-.range-services {
+.range-services { 
 
     position: relative;
     top: 100px;
+    width: 90vw;
     line-height: 1.4;
     z-index: -1;
    
@@ -198,11 +202,26 @@
 
 }
 
+.equipment, {
+
+    
+}
+
+#treadmills, #row, #stairs, #cross, #stationary, #smith, #chest, #bicep, #tricep, #leg-press, #mat{
+
+    
+    padding-bottom: 10px;
+
+}
+
+
+
 
 #cost-container {
 
     display: flex;
     flex-wrap: wrap;
+    word-wrap: break-word;
     justify-content: space-evenly;
     padding-left: 2rem;
     overflow-x: hidden;
@@ -212,7 +231,9 @@
 }
 .our-fees {
 
-    align-self: flex-end;
+    width: 90vw;
+
+    
 }
 
 
