@@ -180,9 +180,9 @@
 #services-flex {
 
     display: flex;
-    row-gap: 200px;
+    row-gap: 150px;
+    justify-content: space-around;
     width: 90vw;
-    justify-content: center;
     flex-wrap: wrap;
     word-wrap: break-word;
     text-align: justify;
@@ -202,9 +202,24 @@
 
 }
 
-.equipment, {
+
+
+.equipment1 {
+
+
+   margin-top: -40px;
+   width: 35vw;
+   row-gap: 100px;
+   
+
 
     
+}
+
+.equipment2 {
+
+    width: 35vw;
+
 }
 
 #treadmills, #row, #stairs, #cross, #stationary, #smith, #chest, #bicep, #tricep, #leg-press, #mat{
